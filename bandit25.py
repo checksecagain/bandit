@@ -58,7 +58,7 @@ def checkPin (_from, _to):
                         print('\rPin Found: %d Time: %s      \n%s' % (pin, timeFormatter(time.time()), result), end='')
                         exitFlag = 1
                         return
-                # checking of key
+                # checking for bandit24 key 
                 elif result.find('Please enter the correct current password') != -1:
                         print('\rPlease enter the correct current password', end='  ')
                         exitFlag = 1
